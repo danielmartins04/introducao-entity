@@ -14,7 +14,7 @@ CREATE TABLE [Clientes] (
     [Nome] VARCHAR(80) NOT NULL,
     [Telefone] CHAR(11) NULL,
     [CEP] CHAR(8) NOT NULL,
-    [Estado] CHAR(2 NOT NULL,
+    [Estado] CHAR(2) NOT NULL,
     [Cidade] nvarchar(60) NOT NULL,
     CONSTRAINT [PK_Clientes] PRIMARY KEY ([Id])
 );

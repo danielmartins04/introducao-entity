@@ -16,7 +16,7 @@ namespace CursoEFCore.Migrations
                     Nome = table.Column<string>(type: "VARCHAR(80)", nullable: false),
                     Telefone = table.Column<string>(type: "CHAR(11)", nullable: true),
                     CEP = table.Column<string>(type: "CHAR(8)", nullable: false),
-                    Estado = table.Column<string>(type: "CHAR(2", nullable: false),
+                    Estado = table.Column<string>(type: "CHAR(2)", nullable: false),
                     Cidade = table.Column<string>(maxLength: 60, nullable: false)
                 },
                 constraints: table =>
